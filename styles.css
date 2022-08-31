@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    background-image: url(/images/up-main.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: rgb(102, 140, 158);
+    color: white;
+    border-radius: 25px;
+    opacity: 0.85;
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    height: 33vh;
+    flex-grow: 1;
+    padding: 16px;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 25px;
+    border: 3px black solid;
+}
