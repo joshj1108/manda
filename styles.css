@@ -25,6 +25,7 @@ li {
     height: 33vh;
     flex-grow: 1;
     padding: 16px;
+    list-style-type: none;
 
 }
 
