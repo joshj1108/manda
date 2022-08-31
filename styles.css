@@ -1,6 +1,8 @@
 body {
     height: 100vh;
     background-image: url(./images/up-main.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
 }
